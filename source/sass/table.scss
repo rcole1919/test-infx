@@ -1,0 +1,38 @@
+.table {
+  width: 640px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.table__title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.table__h1 {
+  margin: 0;
+  font-family: "SegoeUIBold", "Arial", sans-serif;
+  font-size: 24;
+}
+
+.table__reset {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+  color: #0075ff;
+  font-size: 16px;
+
+  &:disabled {
+    color: #888888;
+  }
+}
+
+.table__reset span {
+  margin-left: 6px;
+}

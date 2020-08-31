@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("../fonts/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SegoeUIRegular", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@import "hidden.scss";
+@import "table.scss";
+@import "content.scss";
+@import "header.scss";
+@import "item.scss";

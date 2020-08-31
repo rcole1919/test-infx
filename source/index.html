@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Test Informbox</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="table">
+      <div class="table__title-wrap">
+        <h1 class="table__h1">
+          Pantone colors
+        </h1>
+        <button type="button" class="table__reset" disabled>
+          <svg width="18" height="18">
+            <use xlink:href="img/sprite.svg#icon-reset"></use>
+          </svg>
+          <span>Reset</span>
+        </button>
+      </div>
+
+      <table class="table__content content">
+        <tbody>
+          <tr class="content__header header">
+            <td class="header__id td__id">
+              <input type="checkbox" id="id" class="header__input" checked>
+              <label for="id" class="header__label">Id</label>
+            </td>
+            <td class="header__name td__name">
+              <input type="checkbox" id="name" class="header__input" checked>
+              <label for="name" class="header__label">Name</label>
+            </td>
+            <td class="header__year td__year">
+              <input type="checkbox" id="year" class="header__input" checked>
+              <label for="year" class="header__label">Year</label>
+            </td>
+            <td class="header__color td__color">
+              <input type="checkbox" id="color" class="header__input" checked>
+              <label for="color" class="header__label">Color</label>
+            </td>
+            <td class="header__value td__value">
+              <input type="checkbox" id="value" class="header__input" checked>
+              <label for="value" class="header__label">Pantone value</label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <template id="item">
+      <tr class="content__item item">
+        <td class="item__id td__id">
+          1
+        </td>
+        <td class="item__name td__name">
+          cerulean
+        </td>
+        <td class="item__year td__year">
+          2000
+        </td>
+        <td class="item__color td__color">
+          <div class="item__color-square"></div> <span class="item__color-hex">#98B2D1</span>
+        </td>
+        <td class="item__value td__value">
+          15-4020
+        </td>
+      </tr>
+    </template>
+
+    <script src="js/util.js"></script>
+    <script src="js/backend.js"></script>
+    <script src="js/render.js"></script>
+  </body>
+</html>
