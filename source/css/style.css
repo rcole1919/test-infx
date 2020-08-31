@@ -58,7 +58,7 @@ img {
   margin: 0;
   padding: 0;
   background-color: white;
-  color: #0075FF;
+  color: #0075ff;
   font-size: 16px; }
   .table__reset:disabled {
     color: #888888; }
@@ -107,6 +107,6 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  background-color: #98B2D1; }
+  background-color: #98b2d1; }
 
 /*# sourceMappingURL=style.css.map */
